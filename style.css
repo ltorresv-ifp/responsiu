@@ -28,7 +28,9 @@ p {
     width: 100%;
     scale: 0 1;
     animation: 2s analitzador linear;
-    animation-timeline: scroll();
+    -webkit-animation-timeline: scroll();
+        -moz-animation-timeline: scroll();
+            animation-timeline: scroll();
     transform-origin: left;
 }
 
